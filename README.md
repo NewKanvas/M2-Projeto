@@ -17,3 +17,4 @@ Descrição
 ## Equipe do Projeto
 
 ## Versão
+**0.2**
