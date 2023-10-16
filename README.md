@@ -1,8 +1,8 @@
-# Nome do projeto
+# Nome do Projeto
 
 ## Descrição
 
-Descrição
+[Descrição]
 
 ## Funcionalidades Principais
 
@@ -16,5 +16,12 @@ Descrição
 
 ## Equipe do Projeto
 
+- Priscila Cruz
+- Girlerne Nascimento
+- Hernandi de Assis
+- Cássio Ramos
+- Andressa Victoria Pires
+
 ## Versão
+
 **0.2**
