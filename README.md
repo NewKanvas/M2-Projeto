@@ -33,3 +33,7 @@
 2. Execute o arquivo `index.py` para iniciar o programa.
 3. Siga as instruções para fornecer informações demográficas e responder às perguntas.
 4. O programa armazenará as respostas no arquivo `respostas.csv`.
+
+## Licença
+
+Este projeto é licenciado sob a [Licença MIT](LICENSE).
