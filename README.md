@@ -1,15 +1,14 @@
-# Nome do Projeto
+# Diversidade no Local de Trabalho - Pesquisa e Coleta de Dados
 
 ## Descrição
 
-[Descrição]
+[Este projeto tem como objetivo coletar informações demográficas, incluindo gênero e idade, e apresentar um conjunto de perguntas ao usuário. As respostas podem ser "sim", "não" ou "não sei responder". As respostas são armazenadas em um arquivo CSV para análise posterior. Os usuários têm a flexibilidade de sair do programa a qualquer momento.]
 
 ## Funcionalidades Principais
 
 - Coleta de informações demográficas, incluindo gênero e idade.
-- Apresenta um conjunto de perguntas ao usuário, permitindo respostas de sim, não ou não sei responder.
+- Apresenta um conjunto de perguntas ao usuário, permitindo respostas de "sim", "não" ou "não sei responder".
 - Armazena as respostas em um arquivo CSV.
-- Permite que o usuário saia do programa a qualquer momento.
 
 ## Estrutura de Arquivos
 
@@ -25,7 +24,7 @@
 
 ## Versão
 
-**0.2**
+**0.4**
 
 ## Como Usar
 
