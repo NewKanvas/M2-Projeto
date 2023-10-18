@@ -1,4 +1,6 @@
 import csv
+
+# import pandas as pd
 from time import sleep
 import os
 
@@ -91,17 +93,19 @@ def coletar_info():
 def salvarcsv(respostas):
     with open("respostas.csv", mode="a", newline="") as file:
         # Modo "a" serve para adicionar
-        fieldnames = ["Idade", "Genero", "R1", "R2", "R3", "R4"]
+        fieldnames = ["Idade", "Genero", "R1", "R2", "R3", "R4"]  # Cabeçalho
         writer = csv.DictWriter(file, fieldnames=fieldnames)
 
         if file.tell() == 0:
-            # Se o arquivo não existir, escreva o cabeçalho
+            # Se o arquivo não existir, escreva a linha de separação "sep=,"
+            file.write("sep=,\n")
+            # Em seguida, escreva o cabeçalho
             writer.writeheader()
         writer.writerows(respostas)
 
 
-def apresentação():
-    print("Pesquisa sobre Diversidade no Local de Trabalho\n")
+def apresentacao():
+    print("**Pesquisa sobre Diversidade no Local de Trabalho**\n")
     sleep(3)
     os.system("cls")
 
@@ -124,7 +128,7 @@ def apresentação():
     sleep(4)
 
 
-apresentação()
+apresentacao()
 coletar_info()
 
 print("Obrigado por usar nosso Quiz.")
