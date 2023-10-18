@@ -69,7 +69,7 @@ def coletar_info():
         for i in range(len(perg)):
             while True:
                 os.system("cls")
-                print(perg[i])
+                print(f"{i+1}) - {perg[i]}")
                 print("[1] - Sim [2] - Não [3] - Não sei responder")
                 x = int(input("Digite o valor correspondente a sua resposta:"))
 
@@ -128,7 +128,7 @@ def apresentacao():
     sleep(4)
 
 
-apresentacao()
+# apresentacao()
 coletar_info()
 
 print("Obrigado por usar nosso Quiz.")
