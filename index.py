@@ -177,5 +177,5 @@ def apresentacao():
     sleep(4)
 
 
-# apresentacao()
+apresentacao()
 iniciar()
