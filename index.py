@@ -1,109 +1,158 @@
 import csv
-
-# import pandas as pd
 from time import sleep
 import os
+from datetime import datetime
 
 
-def coletar_info():
-    listaC = []
+class Candidato:
+    def __init__(self, idade, genero, r1, r2, r3, r4):
+        self.idade = int(idade)
+        self.genero = str(genero)
+        self.r1 = str(r1)
+        self.r2 = str(r2)
+        self.r3 = str(r3)
+        self.r4 = str(r4)
 
+    def salvar(self):
+        with open("respostas.csv", mode="a", newline="") as file:
+            # Modo "a" serve para adicionar
+            fieldnames = [
+                "Idade",
+                "Genero",
+                "R1",
+                "R2",
+                "R3",
+                "R4",
+                "Date",
+            ]  # Cabeçalho
+            writer = csv.DictWriter(file, fieldnames=fieldnames)
+
+            # Se o arquivo não existir,
+            if file.tell() == 0:
+                # Escreva a linha de separação "sep=,"
+                file.write("sep=,\n")
+                # Em seguida, escreva o cabeçalho
+                writer.writeheader()
+
+            now = datetime.now()
+            date = now.strftime("%d-%m-%Y %H:%M:%S")
+
+            writer.writerow(
+                {
+                    "Idade": self.idade,
+                    "Genero": self.genero,
+                    "R1": self.r1,
+                    "R2": self.r2,
+                    "R3": self.r3,
+                    "R4": self.r4,
+                    "Date": date,
+                }
+            )
+        # Resposta de Salmento
+        print(
+            "Respostas foram salvas no arquivo 'respostas.csv', carregando proximo conjunto de perguntas."
+        )
+        sleep(1)
+
+
+# Pergunta da Idade
+def idade(respostas):
     while True:
-        respostas = {}  # Dicionario para as respostas.
-
         os.system("cls")
 
-        # Pergunta de Genero
+        idade = input("Identifique sua idade (ou '00' para sair): ")
+
+        if idade == "00":  # Sai de dentro do loop
+            print("Obrigado por usar nosso Quiz.")
+            print("Respostas salvas no arquivo 'respostas.csv'.")
+            exit()
+
+        idade = int(idade)
+
+        if idade > 0:
+            respostas["Idade"] = idade
+            break
+
+        else:
+            print("Valor inválido.")
+            sleep(1)
+            continue
+
+
+# Perguntar Genero
+def genero(respostas):
+    while True:
+        os.system("cls")
 
         print("Identifique seu gênero.")
         print("[1] - Masculino [2] - Feminino [3] - Não Binário")
+
         genero = int(input("Digite o número correspondente ao seu gênero: "))
 
         # Transformação da respotas de Genero
 
         if genero == 1:
             respostas["Genero"] = "M"
+            break
         elif genero == 2:
             respostas["Genero"] = "F"
+            break
         elif genero == 3:
             respostas["Genero"] = "NB"
+            break
 
         else:
             print("Opção inválida. Tente novamente.")
             sleep(1)
             continue
 
-        # Pergunta da Idade
+
+# Perguntas
+def perguntas(respostas):
+    # Lista de Perguntas
+    perg = [
+        "Você avalia a diversidade no seu local de trabalho como positiva?: ",
+        "Acredita que todos os funcionários têm igualdade de oportunidades e são tratados de forma justa?: ",
+        "Sua organização oferece treinamentos de sensibilização à diversidade?: ",
+        "Acredita que a sua organização promove a participação de grupos sub-representados em cargos de liderança?: ",
+    ]
+
+    # Estrutura de repetição de Perguntas e Respostas
+
+    for i in range(len(perg)):
         while True:
             os.system("cls")
+            print(f"{i+1}) - {perg[i]}")
+            print("[1] - Sim [2] - Não [3] - Não sei responder")
+            x = int(input("Digite o valor correspondente a sua resposta:"))
 
-            idade = input("Identifique sua idade (ou '00' para sair): ")
-
-            if idade == "00":  # Sai de dentro do loop
-                break
-
-            idade = int(idade)
-
-            if idade > 0:
-                respostas["Idade"] = idade
-                break
-
+            if x in [1, 2, 3]:
+                respostas[f"R{i+1}"] = x
+                break  # Sai do loop while quando um valor válido é digitado
             else:
-                print("Valor inválido.")
+                print("Valor inválido. Digite 1, 2 ou 3.")
                 sleep(1)
-                continue
-
-        if idade == "00":  # Sai do programa
-            break
-
-        # Lista de Perguntas
-        perg = [
-            "Você avalia a diversidade no seu local de trabalho como positiva?: ",
-            "Acredita que todos os funcionários têm igualdade de oportunidades e são tratados de forma justa?: ",
-            "Sua organização oferece treinamentos de sensibilização à diversidade?: ",
-            "Acredita que a sua organização promove a participação de grupos sub-representados em cargos de liderança?: ",
-        ]
-
-        # Estrutura de repetição de Perguntas e Respostas
-
-        for i in range(len(perg)):
-            while True:
-                os.system("cls")
-                print(f"{i+1}) - {perg[i]}")
-                print("[1] - Sim [2] - Não [3] - Não sei responder")
-                x = int(input("Digite o valor correspondente a sua resposta:"))
-
-                if x in [1, 2, 3]:
-                    respostas[f"R{i+1}"] = x
-                    break  # Sai do loop while quando um valor válido é digitado
-                else:
-                    print("Valor inválido. Digite 1, 2 ou 3.")
-                    sleep(1)
-
-        # Armazenar as respostas na lista
-        listaC.append(respostas)
-
-        # Salvar as respostas
-        print("Salvando respostas, carregando proximo conjunto de perguntas.")
-        salvarcsv(listaC)
-        listaC.clear()  # Limpar listaC para evitar acumulo de respostas repitidas.
-        sleep(1)
 
 
-def salvarcsv(respostas):
-    with open("respostas.csv", mode="a", newline="") as file:
-        # Modo "a" serve para adicionar
-        fieldnames = ["Idade", "Genero", "R1", "R2", "R3", "R4"]  # Cabeçalho
-        writer = csv.DictWriter(file, fieldnames=fieldnames)
+# iniciar Classe
+def iniciar():
+    while True:
+        respostas = {}
+        idade(respostas)
+        genero(respostas)
+        perguntas(respostas)
+        p = Candidato(
+            respostas["Idade"],
+            respostas["Genero"],
+            respostas["R1"],
+            respostas["R2"],
+            respostas["R3"],
+            respostas["R4"],
+        )
+        p.salvar()
 
-        if file.tell() == 0:
-            # Se o arquivo não existir, escreva a linha de separação "sep=,"
-            file.write("sep=,\n")
-            # Em seguida, escreva o cabeçalho
-            writer.writeheader()
-        writer.writerows(respostas)
 
-
+# Mensagem de Apresentação
 def apresentacao():
     print("**Pesquisa sobre Diversidade no Local de Trabalho**\n")
     sleep(3)
@@ -128,8 +177,5 @@ def apresentacao():
     sleep(4)
 
 
-apresentacao()
-coletar_info()
-
-print("Obrigado por usar nosso Quiz.")
-print("Respostas salvas no arquivo 'respostas.csv'.")
+# apresentacao()
+iniciar()
