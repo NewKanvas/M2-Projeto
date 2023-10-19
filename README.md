@@ -2,17 +2,18 @@
 
 ## Descrição
 
-[Este projeto tem como objetivo coletar informações demográficas, incluindo gênero e idade, e apresentar um conjunto de perguntas ao usuário. As respostas podem ser "sim", "não" ou "não sei responder". As respostas são armazenadas em um arquivo CSV para análise posterior. Os usuários têm a flexibilidade de sair do programa a qualquer momento.]
+Este projeto tem como objetivo coletar informações demográficas, incluindo gênero e idade, e apresentar um conjunto de perguntas ao usuário. As respostas podem ser "sim", "não" ou "não sei responder". As respostas são armazenadas em um arquivo CSV para análise posterior. Os usuários têm a flexibilidade de sair do programa a qualquer momento.
 
 ## Funcionalidades Principais
 
 - Coleta de informações demográficas, incluindo gênero e idade.
+- Coleta de Data e Hora de conclusão das perguntas.
 - Apresenta um conjunto de perguntas ao usuário, permitindo respostas de "sim", "não" ou "não sei responder".
 - Armazena as respostas em um arquivo CSV.
 
 ## Estrutura de Arquivos
 
-- `index.py`: Arquivo principal
+- [index.py](index.py): Arquivo principal
 
 ## Equipe do Projeto
 
@@ -24,12 +25,12 @@
 
 ## Versão
 
-**0.4**
+**0.5**
 
 ## Como Usar
 
 1. Clone o repositório em sua máquina local.
-2. Execute o arquivo `index.py` para iniciar o programa.
+2. Execute o arquivo [index.py](index.py) para iniciar o programa.
 3. Siga as instruções para fornecer informações demográficas e responder às perguntas.
 4. O programa armazenará as respostas no arquivo `respostas.csv`.
 
