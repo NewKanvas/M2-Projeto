@@ -93,7 +93,7 @@ def apresentacao():
     print(
         "Suas respostas são extremamente valiosas e nos ajudarão a tomar medidas para melhorar nossa cultura empresarial.\n"
     )
-    input("Pressione Enter para continuar...")
+    input(f"{y}Pressione Enter para continuar...{rt}")
 
 
 apresentacao()
