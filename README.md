@@ -8,10 +8,13 @@
 
 ## Tecnologia
 
+![Python](https://img.shields.io/badge/Python-yellow?style=for-the-badge&logo=python)
+![CSV](https://img.shields.io/badge/CSV-green?style=for-the-badge)
+
 - Python
-- Bibliotecas do Python
 - CSV
 
+          
 ## Recursos
 
 - Coleta de informações demográficas, incluindo gênero e idade.
@@ -36,16 +39,14 @@
 
 ## Download
 
-<a href="https://github.com/NewKanvas/Projeto-2/archive/v0.7.zip">
-  <button>Download v0.7</button>
-</a>
+[![Download ZIP](https://img.shields.io/badge/Download_0.7-ZIP-green?style=for-the-badge&logo=github)](https://github.com/NewKanvas/Projeto-2/archive/main.zip)
 
 ## Como Usar
 
 1. Clone o repositório em sua máquina local.
 2. Execute o arquivo [index.py](index.py) para iniciar o programa.
 3. Siga as instruções para fornecer informações demográficas e responder às perguntas.
-4. O programa armazenará as respostas no arquivo `respostas.csv`.
+4. O programa armazenará as respostas no arquivo [respostas.csv](respostas.csv).
 
 ## Licença
 
@@ -54,18 +55,16 @@ Este projeto é licenciado sob a [Licença MIT](LICENSE).
 ## Status
 
 <p align="left">
-  <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/vanzasetia/wealthbuzz?style=for-the-badge&logo=github">
-  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/vanzasetia/wealthbuzz?style=for-the-badge&logo=git">
-  
-[![Licence](https://img.shields.io/github/license/seu-nome-de-usuario/seu-repositorio?style=for-the-badge)](./LICENSE)
-[![Downloads](https://img.shields.io/github/downloads/seu-nome-de-usuario/seu-repositorio/total?style=for-the-badge)](./LICENSE)
-[![Forks](https://img.shields.io/github/forks/seu-nome-de-usuario/seu-repositorio?style=for-the-badge)](./LICENSE)
 
+![GitHub Repo Size](https://img.shields.io/github/repo-size/NewKanvas/Projeto-2?style=for-the-badge&logo=github)
+![GitHub last commit](https://img.shields.io/github/last-commit/NewKanvas/Projeto-2?style=for-the-badge&logo=git)
+[![Licence](https://img.shields.io/github/license/NewKanvas/Projeto-2?style=for-the-badge)](./LICENSE)
+![Downloads](https://img.shields.io/github/downloads/NewKanvas/Projeto-2/total?style=for-the-badge)
+![Forks](https://img.shields.io/github/forks/NewKanvas/Projeto-2?style=for-the-badge)
+![Watchers](https://img.shields.io/github/watchers/NewKanvas/Projeto-2?style=for-the-badge)
+![Stars](https://img.shields.io/github/stars/NewKanvas/Projeto-2?style=for-the-badge)
+![Issues](https://img.shields.io/github/issues/NewKanvas/Projeto-2?style=for-the-badge)
 
-  <img src="https://img.shields.io/github/downloads/NewKanvas/Projeto-2/total.svg">
-  <img src="https://img.shields.io/github/forks/NewKanvas/Projeto-2.svg">
-  <img src="https://img.shields.io.github/watchers/NewKanvas/Projeto-2.svg">
-  <img src="https://img.shields.io/github/stars/NewKanvas/Projeto-2.svg">
-  <img src="https://img.shields.io/github/issues/NewKanvas/Projeto-2.svg">
 </p>
+
 

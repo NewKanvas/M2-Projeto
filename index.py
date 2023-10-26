@@ -26,45 +26,6 @@ def iniciar():
 
 
 # Mensagem de Apresentação
-"""
-def apresentacao():
-    os.system("cls")
-
-    print("**Pesquisa sobre Diversidade no Local de Trabalho**\n")
-    sleep(3)
-    os.system("cls")
-
-    print("Bem-vindo à nossa pesquisa sobre diversidade no local de trabalho!")
-    input("Pressione Enter para continuar...")
-    os.system("cls")
-
-    print(
-        "Estamos empenhados em promover um ambiente de trabalho inclusivo e igualitário para todos os nossos colaboradores."
-    )
-    input("Pressione Enter para continuar...")
-    os.system("cls")
-
-    print(
-        "Estamos empenhados em promover um ambiente de trabalho inclusivo e igualitário para todos os nossos colaboradores."
-    )
-    print(
-        "Esta pesquisa tem como objetivo coletar opiniões e percepções sobre a diversidade e inclusão em nossa organização."
-    )
-
-    input("Pressione Enter para continuar...")
-    os.system("cls")
-
-    print(
-        "Estamos empenhados em promover um ambiente de trabalho inclusivo e igualitário para todos os nossos colaboradores."
-    )
-    print(
-        "Esta pesquisa tem como objetivo coletar opiniões e percepções sobre a diversidade e inclusão em nossa organização."
-    )
-    print(
-        "Suas respostas são extremamente valiosas e nos ajudarão a tomar medidas para melhorar nossa cultura empresarial.\n"
-    )
-    input("Pressione Enter para continuar...")
-"""
 
 
 def apresentacao():
