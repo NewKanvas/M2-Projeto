@@ -29,10 +29,11 @@ Este projeto tem como objetivo coletar informações demográficas, incluindo g�
 - Hernandi de Assis
 - Cássio Ramos
 - Andressa Victoria Pires
-
-<a href="https://github.com/NewKanvas/Projeto-2.git/archive/main.zip" download>
+  
+<a href="https://github.com/NewKanvas/Projeto-2/archive/main.zip">
   <button>Download ZIP</button>
 </a>
+
 
 ## Versão
 
