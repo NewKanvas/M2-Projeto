@@ -58,6 +58,9 @@ Este projeto é licenciado sob a [Licença MIT](LICENSE).
   <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/vanzasetia/wealthbuzz?style=for-the-badge&logo=git">
   
 [![Licence](https://img.shields.io/github/license/seu-nome-de-usuario/seu-repositorio?style=for-the-badge)](./LICENSE)
+[![Downloads](https://img.shields.io/github/downloads/seu-nome-de-usuario/seu-repositorio/total?style=for-the-badge)](./LICENSE)
+[![Forks](https://img.shields.io/github/forks/seu-nome-de-usuario/seu-repositorio?style=for-the-badge)](./LICENSE)
+
 
   <img src="https://img.shields.io/github/downloads/NewKanvas/Projeto-2/total.svg">
   <img src="https://img.shields.io/github/forks/NewKanvas/Projeto-2.svg">
