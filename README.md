@@ -1,13 +1,16 @@
-# Diversidade no Local de Trabalho - Pesquisa e Coleta de Dados
+# Clinica X - Diversidade no Local de Trabalho
 
-Projeto criado pela Clinica X
-
-<img src="imagens/logo.jpg" width="100">
+![Logo da Clinica X](imagens/logo.jpg)
 
 ## Descrição
 
-Este projeto tem como objetivo coletar informações demográficas, incluindo gênero e idade, e apresentar um conjunto de perguntas ao usuário. As respostas podem ser "sim", "não" ou "não sei responder". As respostas são armazenadas em um arquivo CSV para análise posterior. Os usuários têm a flexibilidade de sair do programa a qualquer momento.
+**Diversidade no Local de Trabalho**: Esse é um projeto criado em colaboração com a Clinica X. Tem como objetivo coletar informações demográficas, incluindo gênero e idade, e apresentar um conjunto de perguntas ao usuário. As respostas podem ser "sim", "não" ou "não sei responder". O projeto visa promover a diversidade e a inclusão nas empresas, fornecendo dados valiosos para análise e tomada de decisão.
 
+## Tecnologia
+
+- Python
+- Bibliotecas do Python
+- CSV
 
 ## Recursos
 
@@ -33,14 +36,9 @@ Este projeto tem como objetivo coletar informações demográficas, incluindo g�
 
 ## Download
 
-<a href="https://github.com/NewKanvas/Projeto-2/archive/main.zip">
-  <button>Download ZIP</button>
+<a href="https://github.com/NewKanvas/Projeto-2/archive/v0.7.zip">
+  <button>Download v0.7</button>
 </a>
-
-
-## Versão
-
-**0.7**
 
 ## Como Usar
 
