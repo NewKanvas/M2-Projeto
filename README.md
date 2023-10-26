@@ -39,7 +39,7 @@
 
 ## Download
 
-[![Download ZIP](https://img.shields.io/badge/Download_0.7-ZIP-green?style=for-the-badge&logo=github)](https://github.com/NewKanvas/Projeto-2/archive/main.zip)
+[![Download ZIP](https://img.shields.io/badge/Download_0.8-ZIP-green?style=for-the-badge&logo=github)](https://github.com/NewKanvas/Projeto-2/archive/main.zip)
 
 ## Como Usar
 
