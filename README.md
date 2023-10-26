@@ -2,6 +2,7 @@
 
 Projeto criado pela Clinica X
 
+<img src="imagens/logo.jpg" width="100">
 
 ## Descrição
 
@@ -29,7 +30,9 @@ Este projeto tem como objetivo coletar informações demográficas, incluindo g�
 - Hernandi de Assis
 - Cássio Ramos
 - Andressa Victoria Pires
-  
+
+## Download
+
 <a href="https://github.com/NewKanvas/Projeto-2/archive/main.zip">
   <button>Download ZIP</button>
 </a>
