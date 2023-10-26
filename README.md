@@ -1,13 +1,14 @@
 # Diversidade no Local de Trabalho - Pesquisa e Coleta de Dados
 
-[Oferecimento Clínica X](imagens/logo.jpg)
+Projeto criado pela Clinica X
 
 
 ## Descrição
 
 Este projeto tem como objetivo coletar informações demográficas, incluindo gênero e idade, e apresentar um conjunto de perguntas ao usuário. As respostas podem ser "sim", "não" ou "não sei responder". As respostas são armazenadas em um arquivo CSV para análise posterior. Os usuários têm a flexibilidade de sair do programa a qualquer momento.
 
-## Funcionalidades Principais
+
+## Recursos
 
 - Coleta de informações demográficas, incluindo gênero e idade.
 - Coleta de Data e Hora de conclusão das perguntas.
@@ -28,6 +29,10 @@ Este projeto tem como objetivo coletar informações demográficas, incluindo g�
 - Hernandi de Assis
 - Cássio Ramos
 - Andressa Victoria Pires
+
+<a href="https://github.com/NewKanvas/Projeto-2.git/archive/main.zip" download>
+  <button>Download ZIP</button>
+</a>
 
 ## Versão
 
