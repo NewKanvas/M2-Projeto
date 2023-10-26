@@ -1,6 +1,6 @@
 # Clinica X - Diversidade no Local de Trabalho
 
-![Logo da Clinica X](imagens/logo.jpg)
+![Logo da Clinica X](imagens/display.jpeg)
 
 ## Descrição
 
