@@ -50,3 +50,19 @@
 ## Licença
 
 Este projeto é licenciado sob a [Licença MIT](LICENSE).
+
+## Status
+
+<p align="left">
+  <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/vanzasetia/wealthbuzz?style=for-the-badge&logo=github">
+  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/vanzasetia/wealthbuzz?style=for-the-badge&logo=git">
+  
+[![Licence](https://img.shields.io/github/license/seu-nome-de-usuario/seu-repositorio?style=for-the-badge)](./LICENSE)
+
+  <img src="https://img.shields.io/github/downloads/NewKanvas/Projeto-2/total.svg">
+  <img src="https://img.shields.io/github/forks/NewKanvas/Projeto-2.svg">
+  <img src="https://img.shields.io.github/watchers/NewKanvas/Projeto-2.svg">
+  <img src="https://img.shields.io/github/stars/NewKanvas/Projeto-2.svg">
+  <img src="https://img.shields.io/github/issues/NewKanvas/Projeto-2.svg">
+</p>
+
