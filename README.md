@@ -1,5 +1,8 @@
 # Diversidade no Local de Trabalho - Pesquisa e Coleta de Dados
 
+[Oferecimento Clínica X](imagens/logo.jpg)
+
+
 ## Descrição
 
 Este projeto tem como objetivo coletar informações demográficas, incluindo gênero e idade, e apresentar um conjunto de perguntas ao usuário. As respostas podem ser "sim", "não" ou "não sei responder". As respostas são armazenadas em um arquivo CSV para análise posterior. Os usuários têm a flexibilidade de sair do programa a qualquer momento.
@@ -13,7 +16,10 @@ Este projeto tem como objetivo coletar informações demográficas, incluindo g�
 
 ## Estrutura de Arquivos
 
-- [index.py](index.py): Arquivo principal
+- [index.py](index.py): Arquivo principal de inicialização do programa.
+- [questionario.py](questionario.py): Arquivo que contem a classe e perguntas
+- [cores.py](cores.py): Arquivo que contem o codigo de cores
+- [respostas.csv](respostas.csv): Arquivo que armazena os dados dos questionarios
 
 ## Equipe do Projeto
 
@@ -25,7 +31,7 @@ Este projeto tem como objetivo coletar informações demográficas, incluindo g�
 
 ## Versão
 
-**0.5**
+**0.7**
 
 ## Como Usar
 
