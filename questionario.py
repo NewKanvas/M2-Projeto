@@ -19,11 +19,7 @@ class Candidato:
         dirname = os.path.dirname(os.path.abspath(__file__))
         csvfilename = os.path.join(dirname, "respostas.csv")
 
-        with open(
-            csvfilename,
-            mode="a",
-            newline="",
-        ) as file:
+        with open(csvfilename, mode="a", newline="", encoding="utf-8") as file:
             # Modo "a" serve para adicionar
             fieldnames = [
                 "Idade",
