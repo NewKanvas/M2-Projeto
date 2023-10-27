@@ -31,11 +31,15 @@
 
 ## Equipe do Projeto
 
-- Priscila Cruz
-- Girlerne Nascimento
-- Hernandi de Assis
-- Cássio Ramos
-- Andressa Victoria Pires
+- **Co-facilitadora:** Girlerne Nascimento
+
+- **Gestor de Conhecimento:** Cássio Ramos
+
+- **Gestor de Gente e Engajamento:** Andressa Victoria Pires
+
+- **Colaborador I:**  Priscila Cruz
+
+- **Colaborador II:** Hernandi de Assis
 
 ## Download
 
