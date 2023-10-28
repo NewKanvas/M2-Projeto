@@ -155,7 +155,7 @@ def perguntas(respostas):
             x = int(input("Digite o valor correspondente a sua resposta:"))
 
             if x in [1, 2, 3]:
-                # Tirar o covert() casi queira o resultado em numeros.
+                # Tirar o covert() caso queira o resultado em numeros.
                 respostas[f"R{i+1}"] = convert(x)
                 break  # Sai do loop while quando um valor válido é digitado
             else:
