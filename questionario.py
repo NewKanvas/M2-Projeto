@@ -112,6 +112,16 @@ def genero(respostas):
             continue
 
 
+# Conversor
+def convert(valor):
+    if valor == 1:
+        return "Sim"
+    elif valor == 2:
+        return "Não"
+    elif valor == 3:
+        return "Não Sei"
+
+
 # Perguntas
 def perguntas(respostas):
     # Lista de Perguntas
@@ -145,7 +155,8 @@ def perguntas(respostas):
             x = int(input("Digite o valor correspondente a sua resposta:"))
 
             if x in [1, 2, 3]:
-                respostas[f"R{i+1}"] = x
+                # Tirar o covert() casi queira o resultado em numeros.
+                respostas[f"R{i+1}"] = convert(x)
                 break  # Sai do loop while quando um valor válido é digitado
             else:
                 print(f"{r}Valor inválido. Digite 1, 2 ou 3.{rt}")
