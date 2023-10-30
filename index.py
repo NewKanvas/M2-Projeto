@@ -10,12 +10,14 @@ from cores import *
 # iniciar Classe
 def iniciar():
     while True:
-        respostas = {}
+        respostas = {}  # Armazena as respostas
 
+        # Inicia as perguntas
         idade(respostas)
         genero(respostas)
         estado(respostas)
         perguntas(respostas)
+        # Criando Classe
         p = Candidato(
             respostas["Idade"],
             respostas["Genero"],
