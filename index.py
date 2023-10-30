@@ -3,6 +3,9 @@ import os
 from questionario import *
 from cores import *
 
+# index.py e o arquivo principal que importada todos esses metodos e inicia cada um.
+# Todas a funções são importadas e iniciadas para criar o candidato
+
 
 # iniciar Classe
 def iniciar():
@@ -22,6 +25,7 @@ def iniciar():
             respostas["R3"],
             respostas["R4"],
         )
+        # Depois ele e salvo com função da classe no arquivo csv
         p.salvar()
 
 

@@ -1,3 +1,5 @@
+# Codigos de cor para usar nos prints/console
+
 r = "\033[91m"
 g = "\033[92m"
 y = "\033[93m"

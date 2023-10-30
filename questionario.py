@@ -4,8 +4,11 @@ from time import sleep
 import os
 from cores import *
 
+# A classe Candidato.
+
 
 class Candidato:
+    # Que armazena idade, genero, etc.
     def __init__(self, idade, genero, estado, r1, r2, r3, r4):
         self.idade = int(idade)
         self.genero = str(genero)
@@ -15,6 +18,7 @@ class Candidato:
         self.r3 = str(r3)
         self.r4 = str(r4)
 
+    # E possui a função para salvar no arquivo csv.
     def salvar(self):
         dirname = os.path.dirname(os.path.abspath(__file__))
         csvfilename = os.path.join(dirname, "respostas.csv")
@@ -61,6 +65,9 @@ class Candidato:
         )
 
         sleep(2)
+
+
+# Contem as funçoes de perguntas, que armazenam essas informações.
 
 
 # Pergunta da Idade
